@@ -1,6 +1,11 @@
 body{
     padding-top: 80px;
     background-color: #f4f4f4;
+
+}
+
+.main{
+    min-height: 600px;
 }
 
 .navbar{
@@ -64,7 +69,65 @@ h2{ margin-top: 0;}
 
 .footer{
     width: 100%;
-    height: 200px;
+    height: 180px;
     background-color: #162636;
     border-top: 5px solid #62bd7c ;
+}
+.footer .menu{
+
+}
+
+.footer .menu ul{
+    margin-top: 70px;
+}
+
+.footer .menu ul li{
+    float: right;
+    list-style: none;
+    display: inline-block;
+    margin-left:20px;
+}
+
+.footer .menu ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#ffffff;
+ }
+
+.footer p{
+    float: right;
+    color:#ffffff;
+    font-size:12px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.footer .prez{
+    margin-top: 50px;
+}
+.footer .reseauxsociaux .email{
+    float: left;
+    margin-left: 31%;
+}
+
+.footer .reseauxsociaux ul{
+    margin-top: 70px;
+    margin-left:80px;
+}
+
+.footer .reseauxsociaux ul li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer .reseauxsociaux ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .reseauxsociaux ul li a img{
+    width: 30px;
+    height: 30px;
 }
