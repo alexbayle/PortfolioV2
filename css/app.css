@@ -1,7 +1,12 @@
+@font-face {font-family: "CODEBOLD";src: url("../fonts/CODE%20Bold.otf"); }
+@font-face {font-family: "CODELIGHT";src: url("../fonts/CODE%20Light.otf");}
+@font-face {font-family: "Bariol Bold";src: url("../fonts/bariol_bold-webfont.ttf");}
+@font-face {font-family: "Bariol Regular";src: url("../fonts/bariol_regular-webfont.ttf");}
+
+
 body{
     padding-top: 80px;
     background-color: #f4f4f4;
-
 }
 
 .main{
@@ -10,6 +15,17 @@ body{
 
 .navbar{
     background-color: #162636;
+    border-top: 3px solid #62bd7c;
+    height: 40px;
+}
+.navbar li a {
+    color:#fff;
+    font-family: "CODEBOLD";
+}
+
+.navbar li a:hover{
+    background-color:#62bd7c;
+    height:100%;
 }
 
 article img{
@@ -46,6 +62,19 @@ h2{ margin-top: 0;}
     margin: 5px 0 0 0;
 }
 
+.work p{
+    font-family: CODEBOLD;
+}
+.stagger1{
+    font-family: "CODEBOLD";
+}
+.stagger2{
+    font-family: "Bariol Regular";
+}
+.stagger3{
+    font-family: "Bariol Regular";
+}
+
 .work .subtitle{
     opacity: 0.6;
     text-align: center;
@@ -69,8 +98,9 @@ h2{ margin-top: 0;}
 
 .footer{
     width: 100%;
-    height: 180px;
-    background-color: #162636;
+    height: auto;
+    min-height: 180px;
+    background-color:#162636;
     border-top: 5px solid #62bd7c ;
 }
 .footer .menu{
@@ -82,16 +112,17 @@ h2{ margin-top: 0;}
 }
 
 .footer .menu ul li{
-    float: right;
+    float: left;
     list-style: none;
     display: inline-block;
-    margin-left:20px;
+    margin-left:15px;
 }
 
 .footer .menu ul li a{
     text-decoration: none;
     cursor: pointer;
     color:#ffffff;
+    font-family: "CODEBOLD";
  }
 
 .footer p{
@@ -100,14 +131,18 @@ h2{ margin-top: 0;}
     font-size:12px;
     margin-top: 10px;
     opacity: 0.6;
+    font-family: "Bariol Regular";
 }
 
 .footer .prez{
     margin-top: 50px;
+    margin-left: 7%;
+    font-family: "Bariol Regular";
 }
 .footer .reseauxsociaux .email{
     float: left;
     margin-left: 31%;
+    font-family: "Bariol Regular";
 }
 
 .footer .reseauxsociaux ul{

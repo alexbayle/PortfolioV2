@@ -52,6 +52,14 @@
         <div class="navbar-header">
             <a href="#" class="navbar-brand"></a>
         </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">HOME</a></li>
+                <li><a href="">A PROPOS</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -208,9 +216,9 @@
 </div>
 
 <div class="footer">
-    <div class="col-md-4 prez">
+    <div class="col-md-3 prez">
         <p>
-            Je m'appelle Alexandre Bayle et je suis étudiant à L'IIM en master 1. <br />
+            Je m'appelle Alexandre Bayle et je suis étudiant à L'IIM en master 1.
             J'ai commmencer le developpement web il y a maintenant 5 ans et c'est rapidement devenu une vraie vocation.
             J'aime experimenter, decouvrir de nouveau langages et apprendre au fur et a mesure de mes projets.
         </p>
@@ -224,7 +232,7 @@
         <br/>
         <p class="email" ">alex.bayle.6691@gmail.com</p>
     </div>
-    <div class="col-md-4 menu">
+    <div class="col-md-3 menu">
         <ul>
             <li><a href="">Contact</a></li>
             <li><a href="">Portfolio</a></li>
