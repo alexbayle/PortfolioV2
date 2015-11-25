@@ -109,13 +109,14 @@ h2{ margin-top: 0;}
 
 .footer .menu ul{
     margin-top: 70px;
+    padding-left: 0px;
 }
 
 .footer .menu ul li{
     float: left;
     list-style: none;
     display: inline-block;
-    margin-left:15px;
+    margin-left:13px;
 }
 
 .footer .menu ul li a{
@@ -141,7 +142,7 @@ h2{ margin-top: 0;}
 }
 .footer .reseauxsociaux .email{
     float: left;
-    margin-left: 31%;
+    margin-left: 34%;
     font-family: "Bariol Regular";
 }
 
