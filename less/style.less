@@ -1,0 +1,206 @@
+/*
+** POLICES
+*/
+@font-face {font-family: "CODEBOLD";src: url("../fonts/CODE%20Bold.otf"); }
+@font-face {font-family: "CODELIGHT";src: url("../fonts/CODE%20Light.otf");}
+@font-face {font-family: "Bariol Bold";src: url("../fonts/bariol_bold-webfont.ttf");}
+@font-face {font-family: "Bariol Regular";src: url("../fonts/bariol_regular-webfont.ttf");}
+
+/*
+** BODY
+*/
+
+body{
+  padding-top: 80px;
+  background-color: #f4f4f4;
+}
+
+.main{
+  min-height: 600px;
+}
+
+
+/*
+** BARRE DE NAVIGATION
+*/
+.navbar{
+  background-color: #162636;
+  border-top: 3px solid #62bd7c;
+  height: 40px;
+  li a{
+    color:#fff;
+    font-family: "CODEBOLD";
+  }
+  li a:hover{
+    background-color:#62bd7c;
+    height:100%;
+  }
+}
+
+/*
+** PORTFOLIO
+*/
+
+article img{
+  width: 95%;
+  height: 126px;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+
+h2{
+  margin-top: 0;
+}
+
+.work {
+  width: 24%;
+  margin-left: 10px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 0;
+  padding-bottom: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  .title {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+  }
+  .subtitle{
+    opacity: 0.6;
+    text-align: center;
+  }
+  p {
+    font-family: CODEBOLD;
+  }
+
+  .work_detail{
+    display: none;
+  }
+
+  .work_detail .work_slideshow{
+    height: 346px;
+    overflow-y: hidden;
+  }
+
+  .work_detail .work_slideshow img{
+    width: 95%;
+    height: auto;
+    margin-left: 7px;
+    margin-top: 7px;
+  }
+}
+
+.stagger1{
+  font-family: "CODEBOLD";
+}
+.stagger2{
+  font-family: "Bariol Regular";
+}
+.stagger3{
+  font-family: "Bariol Regular";
+}
+
+/*
+** FOOTER
+*/
+
+.footer{
+  width: 100%;
+  height: auto;
+  min-height: 180px;
+  background-color:#162636;
+  border-top: 5px solid #62bd7c;
+  .menu ul{
+    margin-top: 70px;
+    padding-left: 0px;
+    li{
+      float: left;
+      list-style: none;
+      display: inline-block;
+      margin-left:13px;
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        color:#ffffff;
+        font-family: "CODEBOLD";
+      }
+    }
+  }
+  p{
+    float: right;
+    color:#ffffff;
+    font-size:12px;
+    margin-top: 10px;
+    opacity: 0.6;
+    font-family: "Bariol Regular";
+  }
+  .prez{
+    margin-top: 50px;
+    margin-left: 7%;
+    font-family: "Bariol Regular";
+  }
+  .reseauxsociaux .email{
+    float: left;
+    margin-left: 34%;
+    font-family: "Bariol Regular";
+  }
+  .reseauxsociaux ul{
+    margin-top: 70px;
+    margin-left:80px;
+    li{
+      float: left;
+      list-style: none;
+      display: inline-block;
+      margin-left: 20px;
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        img{
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+/*
+** ABOUT
+*/
+
+.about{
+  font-family: "Bariol Regular";
+  h2{
+    font-family: CODEBOLD;
+  }
+  img{
+     margin-left: 0%;
+   }
+
+}
+
+.infos{
+  font-family: "Bariol Regular";
+  height:300px;
+  .formation{
+    margin-top: 15px;
+  }
+  h2{
+    font-family: CODEBOLD;
+  }
+}
+
+.progress{
+  padding: 0;
+  height: 10px;
+}
+.progress-bar{
+  background-color: #62bd7c;
+}

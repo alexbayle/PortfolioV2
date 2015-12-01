@@ -35,7 +35,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="less/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
 
     <!-- JavaScript -->
@@ -54,10 +54,10 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">HOME</a></li>
-                <li><a href="">A PROPOS</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="apropos.php">A PROPOS</a></li>
+                <li><a href="portfolio.php">PORTFOLIO</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </div>
     </div>
@@ -65,24 +65,137 @@
 
 <div class="container main">
     <div class="row">
-        <div class="col-sm-12 about">
+        <div class="col-md-8 col-md-offset-4">
             <img src="img/profile.png" alt="Alexandre Bayle">
+        </div>
+        <div class="col-sm-12 about">
             <h2>Présentation</h2>
             <p>
 
             </p>
         </div>
-        <div class="col-md-6 about">
+        <div class="col-md-6 infos">
             <h2>Formations</h2>
+
+            <div class="col-md-12">
+                Institut de l'Internet et du Multimédia <br />
+                Spéialisation: Web & E-Business <br />
+                2013-2017
+            </div>
+
+            <div class="col-md-12 formation">
+                BTS Services Informatiques aux Organisations <br />
+                Spéialisation: Développement <br />
+                2011-2013
+            </div>
+
+            <div class="col-md-12 formation">
+                IUT Informatique D'Orsay <br />
+                Spéialisation: Développement <br />
+                2011-2011
+            </div>
+
         </div>
-        <div class="col-sm-6 about">
-            <h2>Competences</h2>
+        <div class="col-sm-6 infos">
+            <h2>Compétences</h2>
+
+            <div class="col-md-4">
+                HTML 5
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                CSS 3
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                JavaScript
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                PHP
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                MySQL
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6 about">
+
+        <div class="col-sm-6 infos">
             <h2>CMS</h2>
+            <div class="col-md-4">
+                WordPress
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                Joomla
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
         </div>
+
         <div class="col-sm-6 about">
-            <h2>Framwork</h2>
+            <h2>Framework</h2>
+
+            <div class="col-md-4">
+                Jquery
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                Sympfony 2
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                Laravel
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
         </div>
 
     </div>

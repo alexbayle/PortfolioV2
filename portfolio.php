@@ -35,7 +35,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="less/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
 
     <!-- JavaScript -->
@@ -54,10 +54,10 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">HOME</a></li>
-                <li><a href="">A PROPOS</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="apropos.php">A PROPOS</a></li>
+                <li><a href="portfolio.php">PORTFOLIO</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </div>
     </div>

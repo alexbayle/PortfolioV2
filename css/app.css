@@ -28,15 +28,7 @@ body{
     height:100%;
 }
 
-article img{
-    width: 95%;
-    height: 126px;
-    margin-left: 7px;
-    margin-top: 7px;
-}
 
-
-h2{ margin-top: 0;}
 
 
 
@@ -169,18 +161,3 @@ h2{ margin-top: 0;}
 }
 
 
-/*
-* ABOUT
-*/
-
-.about{
-
-}
-
-.about h2{
-    font-family: CODEBOLD;
-}
-
-.about img{
-    margin-left: %;
-}
