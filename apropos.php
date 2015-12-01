@@ -64,7 +64,28 @@
 </div>
 
 <div class="container main">
+    <div class="row">
+        <div class="col-sm-12 about">
+            <img src="img/profile.png" alt="Alexandre Bayle">
+            <h2>Présentation</h2>
+            <p>
 
+            </p>
+        </div>
+        <div class="col-md-6 about">
+            <h2>Formations</h2>
+        </div>
+        <div class="col-sm-6 about">
+            <h2>Competences</h2>
+        </div>
+        <div class="col-sm-6 about">
+            <h2>CMS</h2>
+        </div>
+        <div class="col-sm-6 about">
+            <h2>Framwork</h2>
+        </div>
+
+    </div>
 </div>
 
 <div class="footer">
@@ -72,7 +93,7 @@
         <p>
             Je m'appelle Alexandre Bayle et je suis étudiant à L'IIM en master 1.
             J'ai commmencer le developpement web il y a maintenant 5 ans et c'est rapidement devenu une vraie vocation.
-            J'aime experimenter, decouvrir de nouveau langages et apprendre au fur et a mesure de mes projets.
+            J'aime experimenter, decouvrir de nouveau langages et apprendre au fur et à mesure de mes projets.
         </p>
     </div>
     <div class="col-md-4 reseauxsociaux">

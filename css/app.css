@@ -167,3 +167,20 @@ h2{ margin-top: 0;}
     width: 30px;
     height: 30px;
 }
+
+
+/*
+* ABOUT
+*/
+
+.about{
+
+}
+
+.about h2{
+    font-family: CODEBOLD;
+}
+
+.about img{
+    margin-left: %;
+}
