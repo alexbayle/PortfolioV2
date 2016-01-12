@@ -145,7 +145,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 infos">
+        <div class="col-sm-4 infos">
             <h2>CMS</h2>
             <div class="col-md-4">
                 WordPress
@@ -167,7 +167,7 @@
 
         </div>
 
-        <div class="col-sm-6 about">
+        <div class="col-sm-4 about">
             <h2>Framework</h2>
 
             <div class="col-md-4">
@@ -196,6 +196,29 @@
                     <span class="sr-only">90% Complete (success)</span>
                 </div>
             </div>
+        </div>
+
+        <div class="col-sm-4 about">
+            <h2>Ou</h2>
+
+            <div class="col-md-4">
+                Photoshop
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                Indesign
+            </div>
+            <div class="col-md-8 progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">90% Complete (success)</span>
+                </div>
+            </div>
+
         </div>
 
     </div>
