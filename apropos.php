@@ -71,7 +71,11 @@
         <div class="col-sm-12 about">
             <h2>Présentation</h2>
             <p>
-
+                Hello, je m'appelle Alexandre Bayle et je suis étudiant en Master 1 à L'Institut de l'Internet et du
+                Multimédia à La Defense. J'ai commencé le développement web il y a maintenant 5 ans et je me suis dit
+                c'est bon j'ai trouvé ma voie. Developper, experimenter et découvrir de nouveau langages sont des choses
+                vraiment interressante mais aussi la gestion de projet et le marketing autour d'un projet m'interres,
+                c'est pourquoi je suis en master actuellement.
             </p>
         </div>
         <div class="col-md-6 infos">
@@ -180,7 +184,7 @@
             </div>
 
             <div class="col-md-4">
-                Sympfony 2
+                Symfony 2
             </div>
             <div class="col-md-8 progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
@@ -199,7 +203,7 @@
         </div>
 
         <div class="col-sm-4 about">
-            <h2>Ou</h2>
+            <h2>Logiciels</h2>
 
             <div class="col-md-4">
                 Photoshop

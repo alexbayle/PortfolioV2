@@ -190,6 +190,7 @@ h2 {
 .progress {
   padding: 0;
   height: 10px;
+  background-color: #f6f6f6;
 }
 .progress-bar {
   background-color: #62bd7c;
