@@ -50,9 +50,11 @@
 <div class="navbar navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            </button>
             <a href="#" class="navbar-brand"></a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="apropos.php">A PROPOS</a></li>
@@ -71,11 +73,12 @@
         <div class="col-sm-12 about">
             <h2>Présentation</h2>
             <p>
-                Hello, je m'appelle Alexandre Bayle et je suis étudiant en Master 1 à L'Institut de l'Internet et du
-                Multimédia à La Defense. J'ai commencé le développement web il y a maintenant 5 ans et je me suis dit
-                c'est bon j'ai trouvé ma voie. Developper, experimenter et découvrir de nouveau langages sont des choses
-                vraiment interressante mais aussi la gestion de projet et le marketing autour d'un projet m'interres,
-                c'est pourquoi je suis en master actuellement.
+                Je m'appelle Alexandre Bayle et je suis étudiant en Master 1 à l'Institut de l'Internet et du
+                Multimédia à La Defense.
+
+                J'ai commencé le développement web il y a maintenant 5 ans et c'est rapidement devenu une vraie vocation.
+
+                J'aime experimenter, découvrir de nouveau langages et apprendre au fur et à mesure de mes projets.
             </p>
         </div>
         <div class="col-md-6 infos">
@@ -108,7 +111,7 @@
             </div>
             <div class="col-md-8 progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -116,8 +119,8 @@
                 CSS 3
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -125,8 +128,8 @@
                 JavaScript
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -134,8 +137,8 @@
                 PHP
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -143,8 +146,8 @@
                 MySQL
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
         </div>
@@ -155,8 +158,8 @@
                 WordPress
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -164,8 +167,8 @@
                 Joomla
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -178,8 +181,8 @@
                 Jquery
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -187,8 +190,8 @@
                 Symfony 2
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -196,8 +199,8 @@
                 Laravel
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
         </div>
@@ -209,8 +212,8 @@
                 Photoshop
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -218,8 +221,8 @@
                 Indesign
             </div>
             <div class="col-md-8 progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                    <span class="sr-only"></span>
                 </div>
             </div>
 
@@ -227,37 +230,43 @@
 
     </div>
 </div>
+<footer class="footer">
+    <div class="col-md-18">
+        <div class="col-md-3 prez">
+            <p>
+                Je m'appelle Alexandre Bayle et je suis étudiant à L'IIM en master 1.
+                J'ai commmencer le developpement web il y a maintenant 5 ans et c'est rapidement devenu une vraie vocation.
+                J'aime expérimenter, découvrir de nouveau langages et apprendre au fur et à mesure de mes projets.
+            </p>
+        </div>
+        <div class="col-md-4 reseauxsociaux">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href=""><img src="img/reseau-sociaux/facebook.png" alt="facebook"/></a></li>
+                    <li><a href=""><img src="img/reseau-sociaux/twitter.png" alt="twitter"/></a></li>
+                    <li><a href=""><img src="img/reseau-sociaux/linkedin.png" alt="linkedin"/></a></li>
+                    <li><a href=""><img src="img/reseau-sociaux/github.png" alt="github"/></a></li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <p class="email">alex.bayle.6691@gmail.com</p>
+            </div>
 
-<div class="footer">
-    <div class="col-md-3 prez">
-        <p>
-            Je m'appelle Alexandre Bayle et je suis étudiant à L'IIM en master 1.
-            J'ai commmencer le developpement web il y a maintenant 5 ans et c'est rapidement devenu une vraie vocation.
-            J'aime experimenter, decouvrir de nouveau langages et apprendre au fur et à mesure de mes projets.
-        </p>
+        </div>
+        <div class="col-md-3 menu">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">A Propos</a></li>
+                    <li><a href="">Accueil</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <p class="copy">&copy Alexandre Bayle - Tous droits reservés</p>
+            </div>
     </div>
-    <div class="col-md-4 reseauxsociaux">
-        <ul>
-            <li><a href=""><img src="img/reseau-sociaux/facebook.png" alt="facebook"/></a></li>
-            <li><a href=""><img src="img/reseau-sociaux/twitter.png" alt="twitter"/></a></li>
-            <li><a href=""><img src="img/reseau-sociaux/linkedin.png" alt="linkedin"/></a></li>
-        </ul>
-        <br/>
-        <p class="email" ">alex.bayle.6691@gmail.com</p>
-    </div>
-    <div class="col-md-3 menu">
-        <ul>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">A Propos</a></li>
-            <li><a href="">Accueil</a></li>
-        </ul>
-        <br/>
-        <p>&copy Alexandre Bayle - Tous droits reservés</p>
-    </div>
-</div>
-
-
+</footer>
 
 </body>
 </html>

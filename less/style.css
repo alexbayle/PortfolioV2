@@ -20,14 +20,18 @@
 /*
 ** BODY
 */
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  padding-top: 80px;
   background-color: #f4f4f4;
 }
 .main {
   min-height: 600px;
+  padding: 60px 0px 0;
 }
-/*
+/**
 ** BARRE DE NAVIGATION
 */
 .navbar {
@@ -112,10 +116,12 @@ h2 {
   min-height: 180px;
   background-color: #162636;
   border-top: 5px solid #62bd7c;
+  position: absolute;
+  bottom: 0;
 }
 .footer .menu ul {
   margin-top: 70px;
-  padding-left: 0px;
+  margin-left: 4%;
 }
 .footer .menu ul li {
   float: left;
@@ -128,6 +134,11 @@ h2 {
   cursor: pointer;
   color: #ffffff;
   font-family: "CODEBOLD";
+}
+.footer .menu .copy {
+  text-align: center;
+  float: none;
+  font-family: "Bariol Regular";
 }
 .footer p {
   float: right;
@@ -143,13 +154,14 @@ h2 {
   font-family: "Bariol Regular";
 }
 .footer .reseauxsociaux .email {
-  float: left;
-  margin-left: 34%;
+  text-align: center;
+  float: none;
   font-family: "Bariol Regular";
 }
 .footer .reseauxsociaux ul {
   margin-top: 70px;
-  margin-left: 80px;
+  margin-left: 20%;
+  margin-right: 0;
 }
 .footer .reseauxsociaux ul li {
   float: left;
@@ -162,14 +174,15 @@ h2 {
   cursor: pointer;
 }
 .footer .reseauxsociaux ul li a img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 /*
 ** ABOUT
 */
 .about {
   font-family: "Bariol Regular";
+  margin-bottom: 2%;
 }
 .about h2 {
   font-family: CODEBOLD;
