@@ -29,7 +29,7 @@ body {
 }
 .main {
   min-height: 600px;
-  padding: 60px 0px 0;
+  padding: 60px 0px 60px 0px;
 }
 /**
 ** BARRE DE NAVIGATION

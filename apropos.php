@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="less/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
     <!-- JavaScript -->
     <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
@@ -68,7 +69,7 @@
 <div class="container main">
     <div class="row">
         <div class="col-md-8 col-md-offset-4">
-            <img src="img/profile.png" alt="Alexandre Bayle">
+            <!--<img src="img/profile.png" alt="Alexandre Bayle">-->
         </div>
         <div class="col-sm-12 about">
             <h2>Présentation</h2>
@@ -85,21 +86,36 @@
             <h2>Formations</h2>
 
             <div class="col-md-12">
-                Institut de l'Internet et du Multimédia <br />
-                Spéialisation: Web & E-Business <br />
-                2013-2017
+                <div class="col-md-1">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <div class="col-md-11">
+                    Institut de l'Internet et du Multimédia <br />
+                    Spéialisation: Web & E-Business <br />
+                    2013-2017
+                </div>
             </div>
 
             <div class="col-md-12 formation">
-                BTS Services Informatiques aux Organisations <br />
-                Spéialisation: Développement <br />
-                2011-2013
+                <div class="col-md-1">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <div class="col-md-11">
+                    BTS Services Informatiques aux Organisations <br />
+                    Spéialisation: Développement <br />
+                    2011-2013
+                </div>
             </div>
 
             <div class="col-md-12 formation">
-                IUT Informatique D'Orsay <br />
-                Spéialisation: Développement <br />
-                2011-2011
+                <div class="col-md-1">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <div class="col-md-11">
+                    IUT Informatique D'Orsay <br />
+                    Spéialisation: Développement <br />
+                    2011-2011
+                </div>
             </div>
 
         </div>
